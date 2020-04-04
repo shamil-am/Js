@@ -1,27 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-  
-</head>
-<body>
-    <img src="pic_bulboff.gif" alt="" id="bulb_off">
-    <input type="button" value="light on" onclick="light_on();">
-    <input type="button" value="light off" onclick="light_off();">
-<hr>
-    <p id="change" class="paragraph"> Js can change HTML elements</p>
-    <input type="button" value="Click button for changing" onclick="change()" >
-<hr>
-    <h1 id="h1change"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-    <input type="button" value="change_color" onclick="change_color()">
-    <input type="button" value="change_size" onclick="change_size()">
-    <input type="button" value="Make Secret" onclick="secret()">
-<hr>
-  <p class="time">Time display</p>
-  <input type="button" value="change time" id="demo" onclick="timechange()">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/14b26c7631.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="button main">
+            <h2>Hover Me</h2>
+            <div class="button left">
+                <a href=""><i class="fas fa-trash"></i></a>
+                <a href=""><i class="fas fa-share-alt mt-1"></i></a>
+            </div>
+            <div class="button top">
+                <a href=""><i class="fas fa-comment mr-1"></i></a>
+                <a href=""><i class="far fa-thumbs-up"></i></a>
+            </div>
+        </div>
+    </div>
+      
 
 
 
@@ -30,14 +34,10 @@
 
 
 
-
-
-
-
-
-
-
-
-    <script src="main.js"></script>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
